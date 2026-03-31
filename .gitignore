@@ -1,0 +1,39 @@
+# Build directories
+/build/
+
+# CMake/Ninja generated files
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+CMakeFiles/
+
+# Generated asset glue code (created in build dir)
+/generated/
+
+# Runtime outputs
+*.log
+/irp_shots/
+*.exe
+
+# Windows runtime DLL outputs (if copied by older build configs)
+*.dll
+
+# Editor/tool caches
+/.cache/
+/.vs/
+/.vscode/*.code-workspace
+
+# Local dev notes/reference assets (not required for build)
+/dev/prompt*.md
+/dev/sz_file_inventory.txt
+/dev/original_screenshots_1981/
+/dev/tempest_original_source/
+/dev/sz_icon.ico
+/dev/sz_icon.png
+
+# OS cruft
+.DS_Store
+Thumbs.db

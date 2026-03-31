@@ -1,0 +1,8 @@
+// sz_resources.rc — Windows resource script for sz.exe
+// Embeds the application icon so Explorer and the taskbar show it.
+#include <winresrc.h>
+
+LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
+
+// Icon ID 1 is used by Windows as the application icon (shown in Explorer/taskbar).
+1 ICON "sz_icon.ico"
